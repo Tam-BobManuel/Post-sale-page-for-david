@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+body{
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1457131760772-7017c6180f05?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODI4ODc5Mjk&ixlib=rb-4.0.3&q=85");
+  background-size: 100%;
+  background-opacity: 0.5;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+}
+
+.main{
+  width: 80%;
+  margin: auto;
+  padding: 5vw;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  font-size: 4vw;
+}
+
+button {
+  display: inline-block;
+  background-color: #DAA63C;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 2vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2vw;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 2vw;
+  font-size: 3vw;
+}
